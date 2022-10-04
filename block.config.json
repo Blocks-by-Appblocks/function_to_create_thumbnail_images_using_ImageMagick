@@ -1,0 +1,13 @@
+{
+  "name": "function_to_create_thumbnail_images_using_ImageMagick",
+  "type": "function",
+  "source": {
+    "https": "https://github.com/Blocks-by-Appblocks/function_to_create_thumbnail_images_using_ImageMagick",
+    "ssh": "git@github.com:Blocks-by-Appblocks/function_to_create_thumbnail_images_using_ImageMagick.git"
+  },
+  "language": "nodejs",
+  "start": "node index.js",
+  "build": "",
+  "postPull": "npm i",
+  "standAloneBlock": true
+}
