@@ -1,16 +1,20 @@
 {
-    "name": "function_to_create_thumbnail_images_using_ImageMagick",
-    "version": "0.0.1",
-    "description": "",
-    "main": "index.js",
-    "scripts": {
-      "start": "node index.js --port=3000"
-    },
-    "type": "module",
-    "keywords": [],
-    "author": "",
-    "license": "ISC",
-    "dependencies": {
-        "express": "^4.17.3"
-    }
+  "name": "function_to_create_thumbnail_images_using_ImageMagick",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js --port=2000"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3",
+    "gm": "^1.25.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
   }
+}
